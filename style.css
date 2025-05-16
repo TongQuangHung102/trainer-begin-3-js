@@ -1,0 +1,60 @@
+/* 1 */
+.outputAll {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.outputItem {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.outputItem p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #333;
+}
+/* 2 */
+.bar-inline {
+    background-color: #f44336;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.percentage-label {
+    display: inline-block;
+    font-size: 0.8em;
+    color: #333;
+    vertical-align: middle;
+}
+/* 7 */
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th,
+td {
+    border: 1px solid black;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+}
+th {
+    background-color: lightgray;
+}
+.highlight {
+    font-weight: bold;
+    color: red;
+}
+caption {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
